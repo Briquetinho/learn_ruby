@@ -16,9 +16,9 @@ require 'book'
 
 describe Book do
 
-  before do
+ before do
     @book = Book.new
-  end
+end
 
   describe 'title' do
     it 'should capitalize the first letter' do
